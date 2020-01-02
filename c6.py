@@ -1,0 +1,21 @@
+import numpy as np
+
+a = np.arange(2,14).reshape((3,4))
+print(a)
+
+print(np.argmin(a))
+print(np.argmax(a))
+print(np.mean(a))
+print(a.mean())
+print(np.average(a))
+print(np.median(a))
+print(np.cumsum(a))
+print(np.diff(a))
+print(np.nonzero(a))
+print(np.sort(a))
+print(np.transpose(a))
+print(a.T)
+print(np.dot(a, a.T))
+print(np.clip(a, 5, 9))
+print(np.mean(a, axis=0))
+print(np.cumsum(a,axis=1))
